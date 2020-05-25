@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
+import 'tachyons';
 import * as serviceWorker from './serviceWorker';
 
+//when using js syntax in html syntax use {} so that jsx can interpret it into js syntax.
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  	<App />
   </React.StrictMode>,
   document.getElementById('root')
 );
